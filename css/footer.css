@@ -8,8 +8,6 @@ footer{
 
 @media (max-width:768px) {
     footer{
-        flex-direction: column;
-        row-gap: 40px;
         background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2024%20web-camp/footer-bg-sm.png?raw=true);
     }
 }
@@ -29,6 +27,13 @@ footer{
     margin: auto;
 }
 
+@media (max-width:768px) {
+    .footer_container{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+}
+
 footer img{
     margin: 0;
     padding: 0;
@@ -41,7 +46,7 @@ footer img{
     justify-content: center;
     align-items: flex-end;
     gap: 1rem;
-    width: 40%;
+    width: 48%;
 }
 
 .right-content a{
@@ -68,7 +73,6 @@ footer img{
     justify-content: flex-start;
     padding: 1%;
     width: 80%;
-    margin-right: 0;
 }
 
 .left-content{
@@ -92,5 +96,9 @@ footer img{
 @media (max-width:768px) {
     .right-content, .left-content{
         width: 40%;
+    }
+
+    .icon-button{
+        width: 100%;
     }
 }
