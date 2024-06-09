@@ -35,7 +35,7 @@ img{
 
 .content h2{
     color: #3B3B3B;
-    font-size: 28px;
+    font-size: 1.5rem;
     margin: 5% 0;
 }
 
@@ -51,15 +51,19 @@ img{
     height: 10%;
 }
 
+.tags ul{
+    width: 100%;
+}
+
 .tag{
     display: inline-block;
     box-sizing: border-box;
     background-color: #F1F1F1;
     height: 40px;
     line-height: 40px;
-    margin-right: 20px;
+    margin-right: 0.5%;
     border-radius: 8px;
-    padding: 0 10px;
+    padding: 0 5%;
 }
 
 .tag a{
@@ -97,7 +101,7 @@ img{
 
 .page ul li{
     display: block;
-    margin: 0px 10px;
+    margin: 0 1%;
     border-radius: 4px;
     padding: 0.55rem 0.75rem;
     cursor: pointer;
